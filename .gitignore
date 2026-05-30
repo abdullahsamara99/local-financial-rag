@@ -1,0 +1,24 @@
+# Python virtual environments
+venv_ocr/
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.huggingface/
+
+# Local database and financial data (Privacy Protection)
+data/vector_store.json
+*.pdf
+
+# IDE and system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
